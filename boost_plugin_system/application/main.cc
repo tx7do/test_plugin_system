@@ -24,7 +24,7 @@ void test_import_alias()
 
 	auto plugin = creator();
 	std::cout << "plugin ptr: " << plugin << std::endl;
-	std::cout << "Plugin Name:  " << plugin->name() << std::endl;
+	std::cout << "IPlugin Name:  " << plugin->name() << std::endl;
 }
 
 void test_Load_library()
@@ -40,7 +40,7 @@ void test_Load_library()
 
 	auto plugin = creator();
 	std::cout << "plugin ptr: " << plugin << std::endl;
-	std::cout << "Plugin Name:  " << plugin->name() << std::endl;
+	std::cout << "IPlugin Name:  " << plugin->name() << std::endl;
 }
 
 void test_static_plugin()
@@ -55,7 +55,7 @@ void test_static_plugin()
 
 	auto plugin = creator();
 	std::cout << "plugin ptr: " << plugin << std::endl;
-	std::cout << "Plugin Name:  " << plugin->name() << std::endl;
+	std::cout << "IPlugin Name:  " << plugin->name() << std::endl;
 }
 
 int main(int argc, char* argv[])

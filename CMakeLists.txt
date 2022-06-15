@@ -20,3 +20,6 @@ add_subdirectory(boost_plugin_system/application)
 
 add_subdirectory(poco_plugin_system/plugin)
 add_subdirectory(poco_plugin_system/application)
+
+add_subdirectory(ogre_plugin_system/plugin)
+add_subdirectory(ogre_plugin_system/application)

@@ -2,7 +2,8 @@
 #include <Poco/ClassLibrary.h>
 #include <iostream>
 
-extern "C" int POCO_LIBRARY_API gimmeFive();
+extern "C"
+int POCO_LIBRARY_API gimmeFive();
 
 std::string PluginA::name() const
 {
