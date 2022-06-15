@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <sourceRoots>
+      <file path="$PROJECT_DIR$/boost_plugin_system" />
+      <file path="$PROJECT_DIR$/boost_plugin_system/plugin" />
+      <file path="$PROJECT_DIR$/poco_plugin_system" />
+    </sourceRoots>
+  </component>
+</project>
